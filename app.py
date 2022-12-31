@@ -117,7 +117,7 @@ def save_qualifying_loans(qualifying_loans):
     save_ask = questionary.confirm("Do you want to save your qualifying loans?").ask()
    
     if save_ask == True:
-        print("Your qualifying loans have been saved in a CSV file.")
+        print("Your qualifying loans have been saved to a CSV file.")
         return save_csv(qualifying_loans)
     else:
         sys.exit("Loans not saved.")
