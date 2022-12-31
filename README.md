@@ -29,22 +29,29 @@ The main ```app.py``` file, depends on the functions contained in all the .py fi
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+The ```requirement.txt``` file should be called and installed (once inside the main folder in the console path):
 
+<img src="Images\pip_install_img.png" height=60% width=60%>
+
+ 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+Run the main ```app.py``` from the console:
+
+<img src="Images\run_python_img.png" height=60% width=60%>
+
+Then answer all the prompts you get and, when you are asked if you want to save your qualifying loans in a CSV file, confirm and check your options!
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Feature developed by Lourdes Dominguez [(LinkedIn profile)](https://www.linkedin.com/in/lourdes-dominguez-bengoa-12333044/)
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Use only for academic purposes.
