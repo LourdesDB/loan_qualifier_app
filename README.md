@@ -2,11 +2,28 @@
 
 This project adds a new feature to the loan analyzer App that prompts the user to save qualifying loans as a new CSV file.
 
+The user inserts some personal financial data for the App to find a list of loans that qualify for them. Required user's inputs:
+
+* Credit score
+* Total monthly income
+* Desired loan amount
+* Home value
+
+The App then provides a list of loans that may qualify for them, and provides the option to save that list in a CSV file.
+
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+The whole project is implemented in Python, and the necessary libraries are ready to import on the ```requirement.txt``` file. In this case:
+
+* ```fire==0.3.1```
+* ```questionary==1.5.2```
+* ```pytest==5.4.2```
+
+Also, the ```csv``` library and ```pathlib``` from the ```Path``` library.
+
+The main ```app.py``` file, depends on the functions contained in all the .py files contained in the folders 'filters' and 'utils', so they should also be imported properly.
 
 ---
 

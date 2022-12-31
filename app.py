@@ -9,9 +9,13 @@ Example:
 import sys
 import fire
 import questionary
+
 from pathlib import Path
 
-from qualifier.utils.fileio import load_csv
+from qualifier.utils.fileio import (
+    load_csv,
+    save_csv
+)
 
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
@@ -110,6 +114,13 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
+    save_ask = questionary.confirm("Do you want to save your qualifying loans?").ask()
+   
+    if save_ask == True:
+        print("Your qualifying loans have been saved in a CSV file.")
+        return save_csv(qualifying_loans)
+    else:
+        sys.exit("Loans not saved.")
 
 
 def run():

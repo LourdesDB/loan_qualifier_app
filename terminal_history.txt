@@ -1,0 +1,18 @@
+    1  C:/Users/lourd/AppData/Local/Programs/Python/Python311/python.exe c:/Users/lourd/OneDrive/Escritorio/github_stuff/loan_qualifier_app/app.py
+    2  pip install -r requirements.txt
+    3  C:/Users/lourd/AppData/Local/Programs/Python/Python311/python.exe c:/Users/lourd/OneDrive/Escritorio/github_stuff/loan_qualifier_app/app.py
+    4  ls
+    5  pip install -r requirements.txt
+    6  C:/Users/lourd/AppData/Local/Programs/Python/Python311/python.exe c:/Users/lourd/OneDrive/Escritorio/github_stuff/loan_qualifier_app/app.py
+    7  python app.py
+    8  python app.py
+    9  python app.py
+   10  python app.py
+   11  python app.py
+   12  python app.py
+   13  python app.py
+   14  python app.py
+   15  python app.py
+   16  cd ..
+   17  cd loan_qualifier_app/
+   18  history 50 > terminal_history.txt
