@@ -42,9 +42,13 @@ Run the main ```app.py``` from the console:
 
 <img src="Images\run_python_img.png" height=60% width=60%>
 
-Then answer all the prompts you get and, when you are asked if you want to save your qualifying loans in a CSV file, confirm and check your options!
+You will be asked a series of personal questions that you need to answer:
 
-The App will show you a file with all the loans you qualify for:
+<img src="Images\prompts_img.png" height=50% width=50%>
+
+Finally, you will be asked if you want to save your qualifying loans in a CSV file, confirm and check your options!
+
+The App will give you a file with all the loans you qualify for, with an outcome similar to this:
 
 <img src="Images\results_img.png" height=60% width=60%>
 
